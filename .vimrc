@@ -62,7 +62,6 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
-set number " Show line numbers
 set ruler " Always show ruler
 
 set scrolljump=5 " Cursor jump for vertical scrolling
@@ -112,10 +111,10 @@ endif
 """"""""""""""""""""
 " Tabs and Indents "
 """"""""""""""""""""
-set expandtab
-set shiftwidth=4
-set tabstop=4
-set smarttab
+"set expandtab
+"set shiftwidth=4
+"set tabstop=4
+"set smarttab
 
 set autoindent " Auto indent
 set smartindent " Smart indent
@@ -137,10 +136,10 @@ set backspace=indent,eol,start " Backspace behavior in Insert mode
 " Visual Indicators "
 """""""""""""""""""""
 " Set visual column width indicator
-if exists('+colorcolumn')
+"if exists('+colorcolumn')
     "set colorcolumn=-19,+1 " relative values (when textwidth set)
-    set colorcolumn=81,101 " absolute values (when textwidth not set)
-endif
+"    set colorcolumn=81,101 " absolute values (when textwidth not set)
+"endif
 
 """""""""""
 " Folding "
@@ -208,4 +207,3 @@ endif
 
 "filetype plugin on
 "set ofu=syntaxcomplete#Complete
-
